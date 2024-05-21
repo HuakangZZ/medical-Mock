@@ -1,0 +1,47 @@
+.example-card {
+    max-width: 300px;
+    padding: 15px;
+    background-color: #ffefe9;
+}
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.centrar-card{
+    display: block;
+    text-align: center;
+}
+
+.mat-card-centrar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.boton-agregar{
+    background-color: #FEE2D4;
+}
+
+.boton-agregar:hover{
+    background-color: #f0d3c5;
+}
+
+.boton-quitar{
+    background-color: #FEFCC1;
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.display-grid{
+    margin: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+}

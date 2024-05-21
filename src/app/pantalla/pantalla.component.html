@@ -1,0 +1,17 @@
+<app-header></app-header>
+<div class="display-grid">
+  <mat-card class="example-card" *ngFor="let producto of productoList">
+      <mat-card-header class="centrar-card">
+        <mat-card-title class="margin-bottom">{{producto.nombre}}</mat-card-title>
+        
+      </mat-card-header>
+      <img mat-card-image src="{{producto.imagenUrl}}" alt="Photo of a Shiba Inu">
+      <mat-card-actions class="mat-card-centrar">
+        <button mat-button class="boton-agregar">AGREGAR</button>
+        <button mat-button class="boton-quitar">QUITAR</button>
+      </mat-card-actions>
+  </mat-card>
+</div>
+
+
+  
