@@ -16,6 +16,8 @@ import { PantallaComponent } from './pantalla/pantalla.component';
 import { HeaderComponent } from './pantalla/header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { DetalleCarritoComponent } from './pantalla/detalle-carrito/detalle-carrito.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import {MatIconModule} from '@angular/material/icon';
     SidebarComponent,
     PantallaComponent,
     HeaderComponent,
+    DetalleCarritoComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,6 +37,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
+    NgbModule,
   ],
   providers: [
     provideAnimationsAsync()

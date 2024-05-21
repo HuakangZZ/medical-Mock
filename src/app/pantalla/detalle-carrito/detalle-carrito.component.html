@@ -1,0 +1,37 @@
+<div class="cardd">
+    <h4 class="centro">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+            <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg> Mi Pedido
+    </h4>
+      <hr class="my-4" style="border: 1px solid #dddddd; ">    
+
+            <table style="width: 300px;">
+                <thead>
+                    <tr>
+                        <!-- <th scope="col" class="centro">Día</th> -->
+                        <th scope="col" class="centro">Plato</th>
+                        <th scope="col" class="centro">Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody class="centro" style="padding: 10px;border: 1px solid #dddddd;">
+                    <tr>
+                      <!-- <td>{{ plato.dateAssign }}</td> -->
+                        <td>{{ 1 }}</td>
+                        <td>{{ 2 | number }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        <div>
+          <div class="col-xs-12" style="padding: 10px;">
+              <button  class="btn btn-danger" type="button" >Cancelar</button>
+              &nbsp;
+            <button  class="btn btn-success" type="submit" routerLinkActive="active" routerLink="/carrito">Iniciar Pedido
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="2 -3 16 16">
+                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                </svg>
+            </button>
+          </div>
+        </div>
+  </div>

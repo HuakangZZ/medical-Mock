@@ -21,110 +21,125 @@ obtenerProductos(): Observable<Producto[]> {
             nombre: 'Espuma de limpieza',
             descripcion: 'Descripción del producto 1',
             precio: 20.5,
-            imagenUrl: 'assets/Producto1.png'
+            imagenUrl: 'assets/Producto1.png',
+            cantidad:0
           },
           {
             id: 2,
             nombre: 'Tónico Reafirmante',
             descripcion: 'Descripción del producto 2',
             precio: 15.75,
-            imagenUrl: 'assets/Producto2.png'
+            imagenUrl: 'assets/Producto2.png',
+            cantidad:0
           },
           {
             id: 3,
-            nombre: 'Producto 3',
+            nombre: 'Contorno de ojos',
             descripcion: 'Descripción del producto 3',
             precio: 20.5,
-            imagenUrl: 'assets/Producto3.png'
+            imagenUrl: 'assets/Producto3.png',
+            cantidad:0
           },
       
           {
             id: 4,
-            nombre: 'Producto 4',
+            nombre: 'Serum Tensor',
             descripcion: 'Descripción del producto 4',
             precio: 15.75,
-            imagenUrl: 'assets/Producto4.png'
+            imagenUrl: 'assets/Producto4.png',
+            cantidad:0
           },
           {
             id: 5,
-            nombre: 'Producto 3',
+            nombre: 'Crema Matificante',
             descripcion: 'Descripción del producto 3',
             precio: 20.5,
-            imagenUrl: 'assets/Producto5.png'
+            imagenUrl: 'assets/Producto5.png',
+            cantidad:0
           },
       
           {
             id: 6,
-            nombre: 'Producto 4',
+            nombre: 'Serum Redensity',
             descripcion: 'Descripción del producto 4',
             precio: 15.75,
-            imagenUrl: 'assets/Producto6.png'
+            imagenUrl: 'assets/Producto6.png',
+            cantidad:0
           },
       
           {
             id: 7,
-            nombre: 'Producto 5',
+            nombre: 'Crema Descongestiva',
             descripcion: 'Descripción del producto 1',
             precio: 20.5,
-            imagenUrl: 'assets/Producto7.png'
+            imagenUrl: 'assets/Producto7.png',
+            cantidad:0
           },
           {
             id: 8,
-            nombre: 'Producto 2',
+            nombre: 'Ampollas',
             descripcion: 'Descripción del producto 2',
             precio: 15.75,
-            imagenUrl: 'assets/Producto8.png'
+            imagenUrl: 'assets/Producto8.png',
+            cantidad:0
           },
           {
             id: 9,
-            nombre: 'Producto 3',
+            nombre: 'Crema Humectante',
             descripcion: 'Descripción del producto 3',
             precio: 20.5,
-            imagenUrl: 'assets/Producto9.png'
+            imagenUrl: 'assets/Producto9.png',
+            cantidad:0
           },
       
           {
             id: 10,
-            nombre: 'Producto 5',
+            nombre: 'Crema Humectante',
             descripcion: 'Descripción del producto 1',
             precio: 20.5,
-            imagenUrl: 'assets/Producto10.png'
+            imagenUrl: 'assets/Producto10.png',
+            cantidad:0
           },
           {
             id: 11,
-            nombre: 'Producto 2',
+            nombre: 'Contorno de Ojos',
             descripcion: 'Descripción del producto 2',
             precio: 15.75,
-            imagenUrl: 'assets/Producto3.png'
+            imagenUrl: 'assets/Producto3.png',
+            cantidad:0
           },
           {
             id: 12,
-            nombre: 'Producto 3',
+            nombre: 'Tónico Reafirmante',
             descripcion: 'Descripción del producto 3',
             precio: 20.5,
-            imagenUrl: 'assets/Producto2.png'
+            imagenUrl: 'assets/Producto2.png',
+            cantidad:0
           },
       
           {
             id: 13,
-            nombre: 'Producto 5',
+            nombre: 'Crema Matificante',
             descripcion: 'Descripción del producto 1',
             precio: 20.5,
-            imagenUrl: 'assets/Producto5.png'
+            imagenUrl: 'assets/Producto5.png',
+            cantidad:0
           },
           {
             id: 14,
-            nombre: 'Producto 2',
+            nombre: 'Serum Tensor',
             descripcion: 'Descripción del producto 2',
             precio: 15.75,
-            imagenUrl: 'assets/Producto4.png'
+            imagenUrl: 'assets/Producto4.png',
+            cantidad:0
           },
           {
             id: 15,
-            nombre: 'Producto 3',
+            nombre: 'Crema Descongestiva',
             descripcion: 'Descripción del producto 3',
             precio: 20.5,
-            imagenUrl: 'assets/Producto7.png'
+            imagenUrl: 'assets/Producto7.png',
+            cantidad:0
           }
       
         ];
