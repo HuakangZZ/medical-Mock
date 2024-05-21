@@ -61,12 +61,13 @@ export class PantallaComponent implements OnInit {
       value = ""
     }
     this.listadoFiltrado = this.productoList.filter(producto =>{
-      if (this.eliminarDiacriticos(producto.nombre).toLowerCase().includes(this.eliminarDiacriticos(value.toString()))) {
+      if (this.eliminarDiacriticos(producto.nombre).toLowerCase().includes(this.eliminarDiacriticos(value.toString().toLowerCase()))) {
         return true
       }
       return false
     })
   }
+  
 
   aumentarCantidad(producto: Producto){
     producto.cantidad = producto.cantidad + 1;
