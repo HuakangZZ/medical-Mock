@@ -1,13 +1,261 @@
+.p {
+    font-family: Lato;
+  }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
-.logo-navBar{
-    width: 170px;
 }
 
-.navBar{
-    background-color: #FFE4D9;
+@media (min-width: 992px) {
+  .overlay {
+    display: none;
+  }
+}
+
+
+.icon-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px; /* Ajusta el ancho según tus necesidades */
+  text-align: center; /* Centra el contenido dentro del div */
+}
+
+.icon {
+  /* Estilos para el icono */
+}
+
+
+
+  .banner .background-overlay{
+    width: 411px;
+    height: 555px;
+    position: relative;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+      }
+
+  .background {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+      }
+
+
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     display: flex;
-    justify-content:space-between ;
+  }
+
+  .icon-inner {
+    width: 19.20px;
+    height: 16.80px;
+
+  }
+
+  .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    color: grey; /* Color del texto */
+    text-align: center;
+    padding: 10px; /* Espacio alrededor del texto */
+  }
+
+  .title {
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente según tus necesidades */
+    margin-bottom: 0.5em; /* Ajusta el espacio entre el título y el texto según tus necesidades */
+  }
+
+  .info-container {
+    margin-bottom: 0.5em; /* Ajusta el espacio entre la información según tus necesidades */
+  }
+
+  .info {
+    display: flex;
     align-items: center;
-    height: 120px;
-}
+  }
+
+  .info-icon {
+    /* Estilos para el icono */
+  }
+
+  .info-text {
+    margin-left: 0.5em; /* Ajusta el espacio entre el icono y el texto según tus necesidades */
+  }
+
+  .opening-hours {
+    font-size: 1em; /* Ajusta el tamaño de la fuente según tus necesidades */
+    /* Otros estilos según tus necesidades */
+  }
+
+
+  .background-img {
+
+    top: 0;
+    left: 0;
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+  }
+
+  .title {
+    color:#f27474;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 64px;
+    word-wrap: break-word;
+  }
+
+  .info-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+  }
+
+  .info {
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+  }
+
+  .info-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+
+  .info-icon-inner {
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    position: absolute;
+
+  }
+
+  .info-text {
+    color: #f27474;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 32px;
+    word-wrap: break-word;
+  }
+
+  .opening-hours {
+    padding-left: 12px;
+    padding-right: 12px;
+    opacity: 0.75;
+    background: rgb(51, 51, 51);
+    border-radius: 70px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    color: #f27474;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 28px;
+    word-wrap: break-word;
+  }
+
+
+  .buttons-container {
+    margin-top: 20px;
+  }
+
+  .buttons-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .login-button,
+  .logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: green;
+    color: #f27474;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-button:hover,
+  .logout-button:hover {
+    background-color: darkgreen;
+  }
+
+
+  .banner {
+    position: relative;
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .background-img {
+    width: 100%;
+  }
+
+  .opening-hours, .closing-hours {
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical según tu preferencia */
+    left: 10px; /* Ajusta la posición horizontal según tu preferencia */
+    color: #f27474;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  @media screen and (min-width: 768px) {
+    .closing-hours {
+      display: none; /* Oculta el horario de cierre en pantallas grandes */
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .navbar {
+      /* Estilos específicos para pantallas pequeñas (móviles) */
+    }
+  }
+
+
+  .bg-pink {
+    background-color: #ffffff; /* Código de color para rosa pastel */
+    border: 1px solid #ccc; /* Agrega un borde de 1px de grosor con color gris (#ccc) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra para dar profundidad a la tarjeta */
+  }
+
+  .conteiner{
+    justify-content: space-between;
+  }

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Producto } from '../models/Producto.model';
- 
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +12,13 @@ export class MockProductoService {
     throw new Error('Method not implemented.');
   }
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  logout(){
+    localStorage.clear();
+    this.router.navigateByUrl('');
+
+  }
 
 obtenerProductos(): Observable<Producto[]> {
     const productos: Producto[] = [

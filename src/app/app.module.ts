@@ -7,7 +7,7 @@ import { SidebarComponent } from './pantalla/sidebar/sidebar.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
-
+import { ReactiveFormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import { MatDrawer } from '@angular/material/sidenav';
 import { MatDrawerContainer } from '@angular/material/sidenav';
@@ -18,6 +18,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { DetalleCarritoComponent } from './pantalla/detalle-carrito/detalle-carrito.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from './pantalla/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PantallaComponent,
     HeaderComponent,
     DetalleCarritoComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,6 +40,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatToolbarModule,
     MatIconModule,
     NgbModule,
+    ReactiveFormsModule,
   ],
   providers: [
     provideAnimationsAsync()
